@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: general sans;
+    background-color: #000;
+    color: #fff;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.circle{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    z-index: 9999;
+    position: absolute;
+    transition: all ease 0.1s;
+    mix-blend-mode: difference;
+
+}
+
+
+
+.main{
+    width: 100%;
+    position: relative;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+.nav{
+    padding: 30px 40px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+
+/* heading */
+
+.heading{
+    margin-top: 40px;
+}
+.heading h1{
+    text-transform: uppercase;
+    font-size: 11vw;
+    font-weight: 900;
+    opacity: .7;
+    line-height: 1;
+    color: white;
+    margin-left: 40px;
+}
+
+#second{
+    margin-left: 200px;
+}
+
+.align-r{
+    width: fit-content;
+    /* background-color: red;  */
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.align-r h5{
+    font-size: 1.3vw;
+}
+
+
+/* tiny heading */
+
+.tinyheading{
+    margin-top: 2vw;
+    text-align: right;
+    padding-right: 40px;
+    /* margin-right: 2vw; */
+}
+
+.tinyheading h5{
+    text-transform: uppercase;
+    line-height: 2;
+    font-size: 1.2vw;
+}
+
+/* footer of hero */
+
+.hero-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2vw;
+    padding: 10px 40px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hero-footer i{
+    transform: rotate(45deg);
+}
+
+.circles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.2vw;
+}
+
+.circles .icon{
+    background-color: #dadada;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+
+
+/* second */
+
+.second{
+    padding: 4vw;
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #000;
+    padding-top: 10vw;
+    /* margin-top: 2vh; */
+    color: white;
+    
+}
+
+.elem{
+    position: relative;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid #dadada;
+}
+
+.elem h1{
+    text-transform: uppercase;
+    font-size: 7vw;
+    padding: 4vw 2vw;
+    opacity: .7;
+}
+
+.elem h5{
+    opacity: .7;
+    text-transform: uppercase;
+}
+/* 
+.elem .lastelement{
+    border-bottom: 1px solid #dadada;
+} */
+
+.elem{
+    border-bottom: 1px solid #dadada;
+}
+
+.elem img{
+    position: absolute;
+    height: 80%;
+    width: 20%;
+    z-index: 999;
+    /* display: none; */
+    opacity: 0;
+}
+
+
+/* about */
+.third-about{
+    width: 100%;
+    padding: 10vw 25vw;
+    /* padding-right: 20vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+.third-about img{
+    height: 13vw;
+    width: 13vw;
+    border-radius: 50%;
+}
+.third-about h5{
+    margin-bottom: 1vw;
+    font-weight: 200;
+    text-align: center;
+}
+
+.third-about p{
+    font-weight: 300;
+    text-align: center;
+}
+
+.third-about a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+    text-align: center;
+    border: 2px solid #dadada;
+    padding: 1vw 0.2vw;
+    border-radius: 100px;
+    text-transform: uppercase;
+    /* background-color: red;    */
+    text-decoration: none;
+}
+
+
+
+/* subs */
+.subs{
+    padding: 4vw;
+    /* background-color: red; */
+    /* padding-bottom: 15vw; */
+}
+.subs h5{
+    text-transform: uppercase;
+    font-weight: 200;
+    opacity: 0.5;
+}
+.subs h3{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 0.4vw;
+}
+.subs i{
+    transform: rotate(45deg);
+}
+
+
+/* footer */
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vw;
+}
+
+.footer-left{
+    display: flex;
+    gap: 2vw;
+    text-transform: uppercase;
+}
+
+.footer-right{
+    display: flex;
+    gap: 2vw;
+    text-transform: uppercase;
+}
+
+.footer h5{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.footer a{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
